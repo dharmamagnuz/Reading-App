@@ -1,0 +1,90 @@
+{
+  "dayNumber": 5,
+  "title": "More 3-Letter Words",
+  "subtitle": "Explore words with short E, O, and U sounds",
+  "targetSounds": ["dog", "sun", "cup", "hen", "bus", "pen", "pot"],
+  "activities": [
+    {
+      "id": "d5_missing_dog",
+      "type": "MISSING_LETTER",
+      "instruction": "Which vowel completes the word?",
+      "prefix": "D",
+      "suffix": "G",
+      "targetWord": "dog",
+      "emoji": "🐶",
+      "correctAnswer": "O",
+      "options": ["A", "O", "U"]
+    },
+    {
+      "id": "d5_missing_sun",
+      "type": "MISSING_LETTER",
+      "instruction": "Which vowel completes the word?",
+      "prefix": "S",
+      "suffix": "N",
+      "targetWord": "sun",
+      "emoji": "☀️",
+      "correctAnswer": "U",
+      "options": ["U", "E", "O"]
+    },
+    {
+      "id": "d5_missing_hen",
+      "type": "MISSING_LETTER",
+      "instruction": "Which vowel completes the word?",
+      "prefix": "H",
+      "suffix": "N",
+      "targetWord": "hen",
+      "emoji": "🐔",
+      "correctAnswer": "E",
+      "options": ["I", "A", "E"]
+    },
+    {
+      "id": "d5_slide_dog",
+      "type": "FINGER_SLIDE_BLENDING",
+      "instruction": "Slide across D - O - G to blend the word!",
+      "letters": ["D", "O", "G"],
+      "sounds": ["d", "o_short", "g"],
+      "blendedWord": "dog",
+      "emoji": "🐶",
+      "meaning": "dog"
+    },
+    {
+      "id": "d5_slide_cup",
+      "type": "FINGER_SLIDE_BLENDING",
+      "instruction": "Slide across C - U - P to blend the word!",
+      "letters": ["C", "U", "P"],
+      "sounds": ["c", "u_short", "p"],
+      "blendedWord": "cup",
+      "emoji": "🥛",
+      "meaning": "cup"
+    },
+    {
+      "id": "d5_pic_to_word_bus",
+      "type": "PICTURE_TO_WORD",
+      "instruction": "What word matches the picture?",
+      "targetWord": "bus",
+      "emoji": "🚌",
+      "correctAnswer": "bus",
+      "options": ["bus", "cup", "dog"]
+    },
+    {
+      "id": "d5_word_to_pic_hen",
+      "type": "WORD_TO_PICTURE",
+      "instruction": "Find the picture for: hen",
+      "targetWord": "hen",
+      "correctAnswer": "hen",
+      "options": [
+        {"word": "hen", "emoji": "🐔"},
+        {"word": "sun", "emoji": "☀️"},
+        {"word": "dog", "emoji": "🐶"}
+      ]
+    },
+    {
+      "id": "d5_listen_find_pot",
+      "type": "LISTEN_AND_FIND",
+      "instruction": "Tap the word you hear.",
+      "targetWord": "pot",
+      "correctAnswer": "pot",
+      "options": ["pot", "pen", "cup"]
+    }
+  ]
+}

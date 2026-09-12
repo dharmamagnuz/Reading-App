@@ -1,0 +1,114 @@
+{
+  "dayNumber": 1,
+  "title": "Letters Have Sounds",
+  "subtitle": "Discover the sounds of M, S, T, and P",
+  "targetSounds": ["m", "s", "t", "p"],
+  "activities": [
+    {
+      "id": "d1_intro_m",
+      "type": "SOUND_INTRO",
+      "instruction": "Listen to the sound of M.",
+      "letter": "M",
+      "sound": "m",
+      "examples": [
+        {"word": "Mango", "emoji": "🥭", "sound": "m"},
+        {"word": "Monkey", "emoji": "🐒", "sound": "m"},
+        {"word": "Moon", "emoji": "🌙", "sound": "m"}
+      ]
+    },
+    {
+      "id": "d1_intro_s",
+      "type": "SOUND_INTRO",
+      "instruction": "Listen to the sound of S.",
+      "letter": "S",
+      "sound": "s",
+      "examples": [
+        {"word": "Sun", "emoji": "☀️", "sound": "s"},
+        {"word": "Star", "emoji": "⭐", "sound": "s"},
+        {"word": "Snake", "emoji": "🐍", "sound": "s"}
+      ]
+    },
+    {
+      "id": "d1_intro_t",
+      "type": "SOUND_INTRO",
+      "instruction": "Listen to the sound of T.",
+      "letter": "T",
+      "sound": "t",
+      "examples": [
+        {"word": "Tiger", "emoji": "🐯", "sound": "t"},
+        {"word": "Tree", "emoji": "🌳", "sound": "t"},
+        {"word": "Turtle", "emoji": "🐢", "sound": "t"}
+      ]
+    },
+    {
+      "id": "d1_intro_p",
+      "type": "SOUND_INTRO",
+      "instruction": "Listen to the sound of P.",
+      "letter": "P",
+      "sound": "p",
+      "examples": [
+        {"word": "Panda", "emoji": "🐼", "sound": "p"},
+        {"word": "Pizza", "emoji": "🍕", "sound": "p"},
+        {"word": "Pen", "emoji": "🖊️", "sound": "p"}
+      ]
+    },
+    {
+      "id": "d1_choose_m",
+      "type": "LISTEN_AND_CHOOSE",
+      "instruction": "Which letter makes this sound?",
+      "targetSound": "m",
+      "correctAnswer": "M",
+      "options": ["M", "S", "T"]
+    },
+    {
+      "id": "d1_choose_s",
+      "type": "LISTEN_AND_CHOOSE",
+      "instruction": "Which letter makes this sound?",
+      "targetSound": "s",
+      "correctAnswer": "S",
+      "options": ["P", "S", "M"]
+    },
+    {
+      "id": "d1_beginning_mango",
+      "type": "BEGINNING_SOUND",
+      "instruction": "Which sound does it start with?",
+      "targetWord": "Mango",
+      "emoji": "🥭",
+      "correctAnswer": "M",
+      "options": ["M", "P", "S"]
+    },
+    {
+      "id": "d1_beginning_sun",
+      "type": "BEGINNING_SOUND",
+      "instruction": "Which sound does it start with?",
+      "targetWord": "Sun",
+      "emoji": "☀️",
+      "correctAnswer": "S",
+      "options": ["T", "S", "M"]
+    },
+    {
+      "id": "d1_sound_to_pic_t",
+      "type": "SOUND_TO_PICTURE",
+      "instruction": "Which one starts with this sound?",
+      "targetSound": "t",
+      "correctAnswer": "Tiger",
+      "options": [
+        {"word": "Tiger", "emoji": "🐯"},
+        {"word": "Moon", "emoji": "🌙"},
+        {"word": "Snake", "emoji": "🐍"}
+      ]
+    },
+    {
+      "id": "d1_sound_to_pic_p",
+      "type": "SOUND_TO_PICTURE",
+      "instruction": "Which one starts with this sound?",
+      "targetSound": "p",
+      "correctAnswer": "Panda",
+      "options": [
+        {"word": "Sun", "emoji": "☀️"},
+        {"word": "Panda", "emoji": "🐼"},
+        {"word": "Tree", "emoji": "🌳"}
+      ]
+    }
+  ]
+}

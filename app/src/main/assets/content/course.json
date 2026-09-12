@@ -1,0 +1,51 @@
+{
+  "id": "foundation_week_1",
+  "title": "7-Day Reading Tutor",
+  "subtitle": "Foundation Reading Program for Beginners",
+  "description": "Learn letter sounds, short vowels, sound blending, CVC words, and your first simple sentences.",
+  "totalDays": 7,
+  "days": [
+    {
+      "dayNumber": 1,
+      "title": "Letters Have Sounds",
+      "summary": "Useful consonants: M, S, T, P",
+      "icon": "🔊"
+    },
+    {
+      "dayNumber": 2,
+      "title": "Short Vowel Sounds",
+      "summary": "The 5 vowel sounds: A, E, I, O, U",
+      "icon": "🔤"
+    },
+    {
+      "dayNumber": 3,
+      "title": "Putting Sounds Together",
+      "summary": "Two-letter sound blending: am, at, in, it...",
+      "icon": "🔗"
+    },
+    {
+      "dayNumber": 4,
+      "title": "First 3-Letter Words",
+      "summary": "Short A & I CVC words: cat, mat, pin, sit...",
+      "icon": "📖"
+    },
+    {
+      "dayNumber": 5,
+      "title": "More 3-Letter Words",
+      "summary": "Short E, O, U CVC words: dog, sun, pen, cup...",
+      "icon": "🐾"
+    },
+    {
+      "dayNumber": 6,
+      "title": "First Simple Sentences",
+      "summary": "Read short sentences with helper sight words",
+      "icon": "🌟"
+    },
+    {
+      "dayNumber": 7,
+      "title": "Practice & Assessment",
+      "summary": "Celebrate achievements and measure reading growth",
+      "icon": "🏆"
+    }
+  ]
+}

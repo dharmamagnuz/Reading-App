@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Star sparkle at top right -->
+    <path
+        android:fillColor="#FDE047"
+        android:pathData="M78,30 L80,36 L86,38 L80,40 L78,46 L76,40 L70,38 L76,36 Z" />
+    <path
+        android:fillColor="#FBBF24"
+        android:pathData="M32,28 L33.5,32 L37.5,33.5 L33.5,35 L32,39 L30.5,35 L26.5,33.5 L30.5,32 Z" />
+
+    <!-- Open Book Base / Cover -->
+    <path
+        android:fillColor="#F59E0B"
+        android:pathData="M24,70 C32,68 44,66 54,71 C64,66 76,68 84,70 C84,72 84,73 84,74 C76,72 64,70 54,75 C44,70 32,72 24,74 Z" />
+
+    <!-- Left Book Page -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M26,45 C36,41 46,43 53,47 L53,70 C46,66 36,64 26,68 Z" />
+
+    <!-- Right Book Page -->
+    <path
+        android:fillColor="#F8FAFC"
+        android:pathData="M82,45 C72,41 62,43 55,47 L55,70 C62,66 72,64 82,68 Z" />
+
+    <!-- Book Spine center -->
+    <path
+        android:fillColor="#E2E8F0"
+        android:pathData="M53,47 L55,47 L55,71 L53,71 Z" />
+
+    <!-- Left page letter "A" -->
+    <path
+        android:fillColor="#EF4444"
+        android:pathData="M37,51 L39,51 L43,62 L40.8,62 L39.8,59 L36.2,59 L35.2,62 L33,62 Z M36.8,57.2 L39.2,57.2 L38,53.5 Z" />
+
+    <!-- Right page letter "B" -->
+    <path
+        android:fillColor="#3B82F6"
+        android:pathData="M65,51 L69,51 C70.5,51 71.5,51.8 71.5,53 C71.5,53.8 71,54.4 70.2,54.7 C71.2,55 72,55.8 72,57 C72,58.4 70.8,59.3 69,59.3 L65,59.3 Z M67,52.8 L67,54.4 L68.8,54.4 C69.4,54.4 69.8,54.1 69.8,53.6 C69.8,53.1 69.4,52.8 68.8,52.8 Z M67,56 L67,57.7 L69,57.7 C69.6,57.7 70.1,57.4 70.1,56.8 C70.1,56.3 69.6,56 69,56 Z" />
+
+    <!-- Sound waves coming from book -->
+    <path
+        android:fillColor="#38BDF8"
+        android:pathData="M52,36 C52.8,35.2 55.2,35.2 56,36 C56.6,36.6 56.6,37.4 56,38 C54.8,39.2 53.2,39.2 52,38 C51.4,37.4 51.4,36.6 52,36 Z" />
+    <path
+        android:fillColor="#38BDF8"
+        android:pathData="M49,31 C51.8,28.8 56.2,28.8 59,31 C59.6,31.6 59.6,32.4 59,33 C58.4,33.6 57.6,33.6 57,33 C55,31.5 53,31.5 51,33 C50.4,33.6 49.6,33.6 49,33 C48.4,32.4 48.4,31.6 49,31 Z" />
+</vector>

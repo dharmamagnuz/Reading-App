@@ -1,0 +1,88 @@
+{
+  "dayNumber": 4,
+  "title": "First 3-Letter Words",
+  "subtitle": "Blend 3 sounds to read real CVC words with short A and I",
+  "targetSounds": ["cat", "mat", "sat", "pin", "sit", "bat"],
+  "activities": [
+    {
+      "id": "d4_slide_mat",
+      "type": "FINGER_SLIDE_BLENDING",
+      "instruction": "Slide across M - A - T to blend the word!",
+      "letters": ["M", "A", "T"],
+      "sounds": ["m", "a_short", "t"],
+      "blendedWord": "mat",
+      "emoji": "🧘",
+      "meaning": "mat"
+    },
+    {
+      "id": "d4_slide_cat",
+      "type": "FINGER_SLIDE_BLENDING",
+      "instruction": "Slide across C - A - T to blend the word!",
+      "letters": ["C", "A", "T"],
+      "sounds": ["c", "a_short", "t"],
+      "blendedWord": "cat",
+      "emoji": "🐱",
+      "meaning": "cat"
+    },
+    {
+      "id": "d4_slide_pin",
+      "type": "FINGER_SLIDE_BLENDING",
+      "instruction": "Slide across P - I - N to blend the word!",
+      "letters": ["P", "I", "N"],
+      "sounds": ["p", "i_short", "n"],
+      "blendedWord": "pin",
+      "emoji": "🧷",
+      "meaning": "pin"
+    },
+    {
+      "id": "d4_pic_to_word_cat",
+      "type": "PICTURE_TO_WORD",
+      "instruction": "What word matches the picture?",
+      "targetWord": "cat",
+      "emoji": "🐱",
+      "correctAnswer": "cat",
+      "options": ["cat", "mat", "pin"]
+    },
+    {
+      "id": "d4_pic_to_word_pin",
+      "type": "PICTURE_TO_WORD",
+      "instruction": "What word matches the picture?",
+      "targetWord": "pin",
+      "emoji": "🧷",
+      "correctAnswer": "pin",
+      "options": ["sit", "pin", "cat"]
+    },
+    {
+      "id": "d4_word_to_pic_mat",
+      "type": "WORD_TO_PICTURE",
+      "instruction": "Find the picture for: mat",
+      "targetWord": "mat",
+      "correctAnswer": "mat",
+      "options": [
+        {"word": "mat", "emoji": "🧘"},
+        {"word": "cat", "emoji": "🐱"},
+        {"word": "pin", "emoji": "🧷"}
+      ]
+    },
+    {
+      "id": "d4_word_to_pic_bat",
+      "type": "WORD_TO_PICTURE",
+      "instruction": "Find the picture for: bat",
+      "targetWord": "bat",
+      "correctAnswer": "bat",
+      "options": [
+        {"word": "bat", "emoji": "🦇"},
+        {"word": "mat", "emoji": "🧘"},
+        {"word": "apple", "emoji": "🍎"}
+      ]
+    },
+    {
+      "id": "d4_listen_find_sit",
+      "type": "LISTEN_AND_FIND",
+      "instruction": "Tap the word you hear.",
+      "targetWord": "sit",
+      "correctAnswer": "sit",
+      "options": ["sit", "sat", "pin"]
+    }
+  ]
+}

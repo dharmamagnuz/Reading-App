@@ -1,0 +1,105 @@
+{
+  "dayNumber": 2,
+  "title": "Short Vowel Sounds",
+  "subtitle": "Discover the 5 short vowels: A, E, I, O, and U",
+  "targetSounds": ["a_short", "e_short", "i_short", "o_short", "u_short"],
+  "activities": [
+    {
+      "id": "d2_intro_a",
+      "type": "SOUND_INTRO",
+      "instruction": "Listen to the short A sound.",
+      "letter": "A",
+      "sound": "a_short",
+      "examples": [
+        {"word": "Apple", "emoji": "🍎", "sound": "a_short"},
+        {"word": "Ant", "emoji": "🐜", "sound": "a_short"}
+      ]
+    },
+    {
+      "id": "d2_intro_e",
+      "type": "SOUND_INTRO",
+      "instruction": "Listen to the short E sound.",
+      "letter": "E",
+      "sound": "e_short",
+      "examples": [
+        {"word": "Egg", "emoji": "🥚", "sound": "e_short"},
+        {"word": "Elephant", "emoji": "🐘", "sound": "e_short"}
+      ]
+    },
+    {
+      "id": "d2_intro_i",
+      "type": "SOUND_INTRO",
+      "instruction": "Listen to the short I sound.",
+      "letter": "I",
+      "sound": "i_short",
+      "examples": [
+        {"word": "Igloo", "emoji": "🧊", "sound": "i_short"},
+        {"word": "Ink", "emoji": "🖋️", "sound": "i_short"}
+      ]
+    },
+    {
+      "id": "d2_intro_o",
+      "type": "SOUND_INTRO",
+      "instruction": "Listen to the short O sound.",
+      "letter": "O",
+      "sound": "o_short",
+      "examples": [
+        {"word": "Octopus", "emoji": "🐙", "sound": "o_short"},
+        {"word": "Olive", "emoji": "🫒", "sound": "o_short"}
+      ]
+    },
+    {
+      "id": "d2_intro_u",
+      "type": "SOUND_INTRO",
+      "instruction": "Listen to the short U sound.",
+      "letter": "U",
+      "sound": "u_short",
+      "examples": [
+        {"word": "Umbrella", "emoji": "☂️", "sound": "u_short"},
+        {"word": "Up", "emoji": "⬆️", "sound": "u_short"}
+      ]
+    },
+    {
+      "id": "d2_choose_a",
+      "type": "LISTEN_AND_CHOOSE",
+      "instruction": "Which vowel makes this sound?",
+      "targetSound": "a_short",
+      "correctAnswer": "A",
+      "options": ["A", "E", "I"]
+    },
+    {
+      "id": "d2_choose_i",
+      "type": "LISTEN_AND_CHOOSE",
+      "instruction": "Which vowel makes this sound?",
+      "targetSound": "i_short",
+      "correctAnswer": "I",
+      "options": ["O", "I", "U"]
+    },
+    {
+      "id": "d2_choose_o",
+      "type": "LISTEN_AND_CHOOSE",
+      "instruction": "Which vowel makes this sound?",
+      "targetSound": "o_short",
+      "correctAnswer": "O",
+      "options": ["E", "A", "O"]
+    },
+    {
+      "id": "d2_beginning_apple",
+      "type": "BEGINNING_SOUND",
+      "instruction": "Which vowel starts Apple?",
+      "targetWord": "Apple",
+      "emoji": "🍎",
+      "correctAnswer": "A",
+      "options": ["A", "I", "U"]
+    },
+    {
+      "id": "d2_beginning_egg",
+      "type": "BEGINNING_SOUND",
+      "instruction": "Which vowel starts Egg?",
+      "targetWord": "Egg",
+      "emoji": "🥚",
+      "correctAnswer": "E",
+      "options": ["O", "E", "A"]
+    }
+  ]
+}

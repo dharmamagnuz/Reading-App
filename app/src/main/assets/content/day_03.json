@@ -1,0 +1,97 @@
+{
+  "dayNumber": 3,
+  "title": "Putting Sounds Together",
+  "subtitle": "Learn how two sounds slide together to make words",
+  "targetSounds": ["am", "at", "in", "it", "on", "up"],
+  "activities": [
+    {
+      "id": "d3_blend_am",
+      "type": "BLENDING",
+      "instruction": "Tap each letter, then watch them slide together!",
+      "letters": ["A", "M"],
+      "sounds": ["a_short", "m"],
+      "blendedWord": "am",
+      "meaning": "I am here"
+    },
+    {
+      "id": "d3_slide_am",
+      "type": "FINGER_SLIDE_BLENDING",
+      "instruction": "Slide your finger from A to M!",
+      "letters": ["A", "M"],
+      "sounds": ["a_short", "m"],
+      "blendedWord": "am",
+      "meaning": "am"
+    },
+    {
+      "id": "d3_blend_at",
+      "type": "BLENDING",
+      "instruction": "Tap the sounds, then put them together.",
+      "letters": ["A", "T"],
+      "sounds": ["a_short", "t"],
+      "blendedWord": "at",
+      "meaning": "Look at that!"
+    },
+    {
+      "id": "d3_slide_at",
+      "type": "FINGER_SLIDE_BLENDING",
+      "instruction": "Slide your finger to blend A and T!",
+      "letters": ["A", "T"],
+      "sounds": ["a_short", "t"],
+      "blendedWord": "at",
+      "meaning": "at"
+    },
+    {
+      "id": "d3_blend_in",
+      "type": "BLENDING",
+      "instruction": "Tap the sounds: I and N.",
+      "letters": ["I", "N"],
+      "sounds": ["i_short", "n"],
+      "blendedWord": "in",
+      "meaning": "Come in!"
+    },
+    {
+      "id": "d3_slide_in",
+      "type": "FINGER_SLIDE_BLENDING",
+      "instruction": "Slide your finger from I to N!",
+      "letters": ["I", "N"],
+      "sounds": ["i_short", "n"],
+      "blendedWord": "in",
+      "meaning": "in"
+    },
+    {
+      "id": "d3_blend_it",
+      "type": "BLENDING",
+      "instruction": "Blend I and T.",
+      "letters": ["I", "T"],
+      "sounds": ["i_short", "t"],
+      "blendedWord": "it",
+      "meaning": "it"
+    },
+    {
+      "id": "d3_slide_on",
+      "type": "FINGER_SLIDE_BLENDING",
+      "instruction": "Slide your finger across O and N!",
+      "letters": ["O", "N"],
+      "sounds": ["o_short", "n"],
+      "blendedWord": "on",
+      "meaning": "on"
+    },
+    {
+      "id": "d3_slide_up",
+      "type": "FINGER_SLIDE_BLENDING",
+      "instruction": "Slide your finger across U and P!",
+      "letters": ["U", "P"],
+      "sounds": ["u_short", "p"],
+      "blendedWord": "up",
+      "meaning": "up"
+    },
+    {
+      "id": "d3_find_at",
+      "type": "LISTEN_AND_FIND",
+      "instruction": "Tap the word you hear.",
+      "targetWord": "at",
+      "correctAnswer": "at",
+      "options": ["at", "am", "in"]
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "dayNumber": 6,
+  "title": "First Simple Sentences",
+  "subtitle": "Read real sentences word by word with helper sight words",
+  "targetSounds": ["I", "see", "a", "cat", "on", "mat", "the", "dog"],
+  "activities": [
+    {
+      "id": "d6_sight_intro",
+      "type": "LISTEN_AND_CHOOSE",
+      "instruction": "Helper words help us read stories! Tap the word: see",
+      "targetSound": "see",
+      "correctAnswer": "see",
+      "options": ["see", "the", "is"]
+    },
+    {
+      "id": "d6_sentence_1",
+      "type": "SENTENCE_READING",
+      "instruction": "Tap each word to read, or tap the speaker to hear the sentence!",
+      "sentence": "I see a cat.",
+      "words": ["I", "see", "a", "cat."],
+      "emoji": "🐱",
+      "helperWords": ["I", "see", "a"],
+      "decodableWords": ["cat"]
+    },
+    {
+      "id": "d6_sentence_2",
+      "type": "SENTENCE_READING",
+      "instruction": "Read along with the cat on the mat!",
+      "sentence": "A cat is on a mat.",
+      "words": ["A", "cat", "is", "on", "a", "mat."],
+      "emoji": "🧘",
+      "helperWords": ["A", "is", "on"],
+      "decodableWords": ["cat", "mat"]
+    },
+    {
+      "id": "d6_sentence_3",
+      "type": "SENTENCE_READING",
+      "instruction": "Look at the dog!",
+      "sentence": "The dog is on the log.",
+      "words": ["The", "dog", "is", "on", "the", "log."],
+      "emoji": "🐶",
+      "helperWords": ["The", "is", "on"],
+      "decodableWords": ["dog", "log"]
+    },
+    {
+      "id": "d6_sentence_4",
+      "type": "SENTENCE_READING",
+      "instruction": "What do you see in the sky?",
+      "sentence": "I see the big sun.",
+      "words": ["I", "see", "the", "big", "sun."],
+      "emoji": "☀️",
+      "helperWords": ["I", "see", "the"],
+      "decodableWords": ["big", "sun"]
+    },
+    {
+      "id": "d6_find_sentence_word",
+      "type": "LISTEN_AND_FIND",
+      "instruction": "Find the helper word: the",
+      "targetWord": "the",
+      "correctAnswer": "the",
+      "options": ["the", "see", "is"]
+    }
+  ]
+}

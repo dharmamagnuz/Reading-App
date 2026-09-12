@@ -1,0 +1,6 @@
+{
+  "name": "Reading Tutor",
+  "description": "7-Day English Reading Tutor for Beginners: phonics, sound blending, CVC words, simple sentences, and parent reports.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

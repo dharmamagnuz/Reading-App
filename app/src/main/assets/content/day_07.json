@@ -1,0 +1,103 @@
+{
+  "dayNumber": 7,
+  "title": "Practice & Assessment",
+  "subtitle": "Show what you learned this week and celebrate your reading power!",
+  "targetSounds": ["letter-sound", "vowel-sound", "beginning-sound", "blending", "cvc-decoding", "word-recognition", "sentence-reading"],
+  "activities": [
+    {
+      "id": "d7_q1_letter_sound",
+      "type": "ASSESSMENT",
+      "category": "letter-sound",
+      "skillName": "Letter Sound Recognition",
+      "instruction": "Listen to the sound. Tap the matching letter.",
+      "targetSound": "m",
+      "correctAnswer": "M",
+      "options": ["M", "S", "T", "P"]
+    },
+    {
+      "id": "d7_q2_vowel_sound",
+      "type": "ASSESSMENT",
+      "category": "vowel-sound",
+      "skillName": "Vowel Sound Recognition",
+      "instruction": "Listen to the vowel sound. Which letter is it?",
+      "targetSound": "a_short",
+      "correctAnswer": "A",
+      "options": ["A", "E", "I", "O"]
+    },
+    {
+      "id": "d7_q3_beginning_sound",
+      "type": "ASSESSMENT",
+      "category": "beginning-sound",
+      "skillName": "Beginning Sound Identification",
+      "instruction": "What sound does Tiger start with?",
+      "targetWord": "Tiger",
+      "targetSound": "t",
+      "emoji": "🐯",
+      "correctAnswer": "T",
+      "options": ["T", "M", "P", "S"]
+    },
+    {
+      "id": "d7_q4_blending",
+      "type": "ASSESSMENT",
+      "category": "blending",
+      "skillName": "Two-Letter Blending",
+      "instruction": "Blend the sounds: A and T. Which word is made?",
+      "targetSound": "at",
+      "correctAnswer": "at",
+      "options": ["at", "am", "in", "it"]
+    },
+    {
+      "id": "d7_q5_cvc_decoding",
+      "type": "ASSESSMENT",
+      "category": "cvc-decoding",
+      "skillName": "CVC Word Decoding",
+      "instruction": "Which word matches this picture?",
+      "targetWord": "cat",
+      "targetSound": "cat",
+      "emoji": "🐱",
+      "correctAnswer": "cat",
+      "options": ["cat", "mat", "sit", "pin"]
+    },
+    {
+      "id": "d7_q6_missing_vowel",
+      "type": "ASSESSMENT",
+      "category": "cvc-decoding",
+      "skillName": "CVC Vowel Placement",
+      "instruction": "Complete the word for the dog: D _ G",
+      "prefix": "D",
+      "suffix": "G",
+      "targetWord": "dog",
+      "targetSound": "o_short",
+      "emoji": "🐶",
+      "correctAnswer": "O",
+      "options": ["A", "O", "U", "I"]
+    },
+    {
+      "id": "d7_q7_word_recognition",
+      "type": "ASSESSMENT",
+      "category": "word-recognition",
+      "skillName": "Word Recognition",
+      "instruction": "Tap the word you hear.",
+      "targetWord": "sun",
+      "targetSound": "sun",
+      "correctAnswer": "sun",
+      "options": ["sun", "bus", "cup", "pot"]
+    },
+    {
+      "id": "d7_q8_sentence_reading",
+      "type": "ASSESSMENT",
+      "category": "sentence-reading",
+      "skillName": "Sentence Reading",
+      "instruction": "Which sentence matches the picture?",
+      "targetWord": "I see a cat.",
+      "targetSound": "I see a cat.",
+      "emoji": "🐱",
+      "correctAnswer": "I see a cat.",
+      "options": [
+        "I see a cat.",
+        "A dog is on a log.",
+        "The sun is big."
+      ]
+    }
+  ]
+}
